@@ -1,0 +1,23 @@
+.box {
+    background-color: #bada55;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    border-radius: 50%;
+    animation-name: bouncingball;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out; 
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bouncingball {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100px;
+    }
+    
+}
